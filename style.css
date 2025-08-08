@@ -1,5 +1,5 @@
 body {
-  background: #f3f4f6;
+  background: #fafafa;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,7 +22,7 @@ body {
   text-align: right;
   margin-bottom: 10px;
   padding: 5px 10px;
-  border: 1px solid #0899d3;
+  border: 1px solid #8f5203;
   border-radius: 8px;
 }
 
@@ -36,14 +36,14 @@ button {
   padding: 20px;
   font-size: 18px;
   border: none;
-  background: #052c7a;
+  background: #d6f760;
   border-radius: 10px;
   cursor: pointer;
   transition: background 0.2s;
 }
 
 button:hover {
-  background: #031d44;
+  background: #ffffff;
 }
 
 button.zero {
