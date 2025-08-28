@@ -19,3 +19,21 @@ function calculate() {
     document.getElementById('display').value = 'Eroare';
   }
 }
+
+function sqrtValue() {
+  const display = document.getElementById('display');
+  let value = display.value;
+  if (value !== '') {
+    try {
+      let num = eval(value);
+      if (typeof num === 'number' && !isNaN(num)) {
+        let result = Math.sqrt(num);
+        display.value = isNaN(result) ? 'Eroare' : result;
+      } else {
+        display.value = 'Eroare';
+      }
+    } catch {
+      display.value = 'Eroare';
+    }
+  }
+}
